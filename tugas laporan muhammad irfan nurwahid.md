@@ -2,8 +2,8 @@
 
 | **Nama**        | Muhammad Irfan Nurwahid |
 |----------------|------------|
-| **NIM**        | [Isi NIM] |
-| **Program Studi** | [Isi Program Studi] |
+| **NIM**        | 09030282327046 |
+| **Program Studi** | Teknik Komputer |
 
 ## **Judul Percobaan**  
 Proses dalam Sistem Operasi  
