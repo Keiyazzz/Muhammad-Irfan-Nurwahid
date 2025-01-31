@@ -1,40 +1,47 @@
 # LAPORAN HASIL PRAKTIKUM
 
-| **Nama**        | Muhammad Irfan Nurwahid |
+| Nama        | Muhammad Irfan Nurwahid |
 |----------------|------------|
-| **NIM**        | 09030282327046 |
-| **Program Studi** | Teknik Komputer |
+| NIM        | 090302823 |
+| Program Studi | Teknik Komputer |
 
-## **Judul Percobaan**  
+## Judul Percobaan  
 Proses dalam Sistem Operasi  
 
 ---
 
-## **Hasil Percobaan**  
+## Hasil Percobaan  
 
-| **Bagian**     | **Penjelasan** |
-|---------------|---------------|
-| **Peraturan** | - Pakaian sopan <br> - Kehadiran minimal 80% <br> - Toleransi keterlambatan 20 menit <br> - Tidak membawa makanan ke lab |
-| **LMS** | - [LMS IPB](https://class.ipb.ac.id) <br> - Buku acuan: Silberschatz *et al.* 2018. *Operating System Concepts*, Ed ke-10. <br> - Proporsi nilai praktikum: <br> &nbsp;&nbsp;&nbsp;&nbsp; - UTSP: 5% <br> &nbsp;&nbsp;&nbsp;&nbsp; - UASP: 5% <br> &nbsp;&nbsp;&nbsp;&nbsp; - Tugas: 20% |
+| Bagian  | Penjelasan |
+|---------|-----------|
+| **Straight** | Pada hasil percobaan straight, urutan pin 1 di ujung A terhubung di pin 1 di ujung B. Begitu pula pada pin 2 di ujung A terhubung di pin 2 di ujung B, dan seterusnya. **Susunan warna (TIA/EIA-568A atau TIA/EIA-568B):** <br> **Contoh susunan T568B (paling umum digunakan):** <br> 1. Putih-Oranye <br> 2. Oranye <br> 3. Putih-Hijau <br> 4. Biru <br> 5. Putih-Biru <br> 6. Hijau <br> 7. Putih-Coklat <br> 8. Coklat <br> Kedua ujung kabel harus memiliki susunan yang sama (misalnya, T568B - T568B). |
+| **Cross** | Sedangkan pada percobaan cross, pin disilangkan antara ujung A dan ujung B. Misalnya, pin 1 di ujung A terhubung dengan pin 3 di ujung B, dan pin 2 di ujung A terhubung dengan pin 6 di ujung B. **Susunan warna:** <br> **Ujung 1 (T568A):** <br> 1. Putih-Hijau <br> 2. Hijau <br> 3. Putih-Oranye <br> 4. Biru <br> 5. Putih-Biru <br> 6. Oranye <br> 7. Putih-Coklat <br> 8. Coklat <br> **Ujung 2 (T568B):** <br> 1. Putih-Oranye <br> 2. Oranye <br> 3. Putih-Hijau <br> 4. Biru <br> 5. Putih-Biru <br> 6. Hijau <br> 7. Putih-Coklat <br> 8. Coklat |
 
-## **Analisis Percobaan**  
 
-| **Konsep**     | **Penjelasan** |
-|---------------|---------------|
-| **Apa itu proses?** | Program yang sedang berjalan. <br> "A program in execution" (Silberschatz *et al.*, 2018). |
-| **Cara menjalankan program** | - **CLI**: buka *shell*, lalu ketikkan perintah `firefox`. <br> - **GUI**: klik ikon Firefox pada menu aplikasi. |
-| **Shell** | *Shell* adalah antarmuka antara pengguna dengan *kernel*. |
-| **Kernel vs Shell** | - *Kernel* = inti <br> - *Shell* = kulit <br> - *Shell* bertugas menjalankan aplikasi pengguna |
-| **Contoh Kernel** | - UNIX (BSD, Darwin, AIX, HP-UX, Solaris) <br> - Linux <br> - Windows NT |
-| **Contoh Shell** | - Bourne shell (`sh`), Bash (`bash`), Z shell (`zsh`), Windows PowerShell |
 
----
+## Analisis Percobaan  
 
-## **Kesimpulan Percobaan**  
-- Proses dalam sistem operasi merupakan program yang sedang dieksekusi.  
-- *Shell* berperan sebagai perantara antara pengguna dan *kernel* dalam menjalankan proses.  
-- Ada berbagai metode untuk menjalankan program, baik melalui CLI maupun GUI.  
-- Fungsi seperti `system()`, `exec()`, `fork()`, dan `wait()` digunakan dalam manajemen proses di sistem operasi berbasis UNIX/Linux.  
+
+Setelah kedua ujung kabel terpasang dengan konektor RJ-45, gunakan alat penguji
+kabel (tester) untuk memeriksa kabel. Sambungkan kedua ujung kabel ke tester.
+Perhatikan indikator lampu pada tester. Jika semua lampu dari 1 hingga 8 pada
+kedua bagian tester menyala, berarti kabel yang dibuat berfungsi dengan baik. (Note:
+Jika salah satu atau beberapa lampu tidak menyala, ini menunjukkan adanya
+kesalahan dalam pemasangan konektor RJ-45 atau urutan kabel. Periksa dan
+perbaiki kesalahan yang mungkin terjadi)
 
 ---
 
+## Kesimpulan Percobaan  
+Kesimpulan:  
+
+Dari percobaan yang dilakukan, dapat disimpulkan bahwa kabel jaringan dapat dibuat dalam dua jenis konfigurasi, yaitu straight dan cross.  
+
+1. Kabel Straight digunakan untuk menghubungkan perangkat yang berbeda jenis, seperti komputer ke switch atau router. Pada kabel ini, urutan pin di ujung A sama dengan urutan pin di ujung B.  
+2. Kabel Cross digunakan untuk menghubungkan perangkat sejenis, seperti komputer ke komputer atau switch ke switch. Pada kabel ini, beberapa pin disilangkan antara ujung A dan ujung B.  
+
+Setelah kabel dibuat dan dipasang dengan konektor RJ-45, dilakukan pengujian menggunakan alat tester. Jika semua lampu indikator menyala dari pin 1 hingga 8, maka kabel berfungsi dengan baik. Namun, jika ada lampu yang tidak menyala, ini menunjukkan adanya kesalahan dalam pemasangan konektor atau urutan kabel, sehingga perlu dilakukan pengecekan dan perbaikan.  
+
+Percobaan ini menunjukkan pentingnya pemilihan dan pemasangan kabel jaringan yang tepat agar komunikasi data dapat berjalan dengan baik tanpa gangguan.
+
+---
